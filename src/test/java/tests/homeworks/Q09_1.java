@@ -42,4 +42,3 @@ public class Q09_1 {
 
     }
 }
-`

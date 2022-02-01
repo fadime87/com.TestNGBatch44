@@ -30,7 +30,7 @@ public class Q09 {
         //   1- https://www.facebook.com adresine gidelim
         driver.get("https://www.facebook.com");
         //    2- Yeni hesap olustur butonuna basalim
-  driver.findElement(By.xpath("//a[@class='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']")).click();
+        driver.findElement(By.xpath("//a[@class='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']")).click();
         //    3- Ad, soyad, mail ve sifre kutularina deger yazalim ve kaydol tusuna basalim
         Actions actions=new Actions(driver);
         WebElement isim= driver.findElement(By.xpath("//input[@name='firstname']"));
